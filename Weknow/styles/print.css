@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+}
+h1 {
+  text-align: center;
+  color: #333;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.printable-area {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.printable-area img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 200px;
+  height: 220px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.print-button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.print-button:hover {
+  background-color: #0056b3;
+}

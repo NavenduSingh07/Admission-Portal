@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f6f7e3;
+}
+h1 {
+  text-align: center;
+  color: #333;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.thead th {
+  background-color: #a20000;
+  color: aliceblue;
+}
+
+.tbody td {
+  background-color: rgb(245, 245, 245);
+}
+
+.btnall a {
+  display: inline-block;
+  padding: 8px 12px;
+  margin-right: 10px;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+}
+
+.btnall a[href*="viewEdit.php"] {
+  color: #fff;
+  background-color: #ffcc00;
+  border: 1px solid #ffc107;
+}
+
+.btnall a[href*="viewEdit.php"]:hover {
+  background-color: #e0a800;
+  border-color: #e0a800;
+}
+
+.btndel {
+  color: #fff;
+  background-color: #dc3545;
+  border: 1px solid #dc3545;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+.btndel:hover {
+  background-color: #bd2130;
+  border-color: #bd2130;
+}
+
+.btnall a[href*="approve.php"] {
+  color: #fff;
+  background-color: #28a745;
+  border: 1px solid #28a745;
+}
+
+.btnall a[href*="approve.php"]:hover {
+  background-color: #218838;
+  border-color: #218838;
+}
+
+.btnall a[href*="viewPrint.php"] {
+  color: #fff;
+  background-color: #2272d3;
+  border: 1px solid #2272d3;
+}
+
+.btnall a[href*="viewPrint.php"]:hover {
+  background-color: #265896;
+  border-color: #265896;
+}
+
+@media (max-width: 768px) {
+  table {
+    overflow-x: auto;
+    display: block;
+  }
+
+  .action-buttons {
+    text-align: left;
+  }
+}

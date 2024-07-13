@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f6f7e3;
+}
+
+.admin-panel {
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.pending-button {
+  background-color: #eec23c;
+}
+
+.approved-button {
+  background-color: #4caf50;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 600px) {
+  .button {
+    font-size: 16px;
+    padding: 12px 24px;
+  }
+}
